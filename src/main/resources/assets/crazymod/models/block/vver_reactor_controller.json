@@ -1,0 +1,8 @@
+﻿{
+    "textures":  {
+                     "front":  "minecraft:block/respawn_anchor_side0",
+                     "top":  "minecraft:block/netherite_block",
+                     "side":  "minecraft:block/netherite_block"
+                 },
+    "parent":  "minecraft:block/orientable"
+}

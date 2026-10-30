@@ -1,0 +1,8 @@
+﻿{
+    "textures":  {
+                     "front":  "minecraft:block/copper_bulb_lit",
+                     "top":  "minecraft:block/smithing_table_bottom",
+                     "side":  "minecraft:block/smithing_table_bottom"
+                 },
+    "parent":  "minecraft:block/orientable"
+}

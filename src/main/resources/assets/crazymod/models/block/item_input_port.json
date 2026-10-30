@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "all":  "minecraft:block/dropper_front_vertical"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

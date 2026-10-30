@@ -1,0 +1,8 @@
+﻿{
+    "textures":  {
+                     "front":  "minecraft:block/blast_furnace_front_on",
+                     "top":  "minecraft:block/iron_block",
+                     "side":  "minecraft:block/iron_block"
+                 },
+    "parent":  "minecraft:block/orientable"
+}

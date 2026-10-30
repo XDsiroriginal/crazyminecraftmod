@@ -1,0 +1,7 @@
+﻿{
+    "variants":  {
+                     "":  {
+                              "model":  "crazymod:block/item_output_port"
+                          }
+                 }
+}

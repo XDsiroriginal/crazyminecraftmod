@@ -1,0 +1,7 @@
+﻿{
+    "variants":  {
+                     "":  {
+                              "model":  "crazymod:block/reactor_control_rod_mechanism"
+                          }
+                 }
+}

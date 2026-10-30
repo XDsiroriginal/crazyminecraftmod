@@ -1,0 +1,8 @@
+﻿{
+    "textures":  {
+                     "front":  "minecraft:block/observer_front",
+                     "top":  "minecraft:block/stone_bricks",
+                     "side":  "minecraft:block/stone_bricks"
+                 },
+    "parent":  "minecraft:block/orientable"
+}

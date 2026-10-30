@@ -1,0 +1,20 @@
+﻿{
+    "variants":  {
+                     "facing=north":  {
+                                          "model":  "crazymod:block/gas_turbine_controller",
+                                          "y":  0
+                                      },
+                     "facing=south":  {
+                                          "model":  "crazymod:block/gas_turbine_controller",
+                                          "y":  180
+                                      },
+                     "facing=east":  {
+                                         "model":  "crazymod:block/gas_turbine_controller",
+                                         "y":  90
+                                     },
+                     "facing=west":  {
+                                         "model":  "crazymod:block/gas_turbine_controller",
+                                         "y":  270
+                                     }
+                 }
+}

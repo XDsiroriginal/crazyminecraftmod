@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "all":  "minecraft:block/lodestone_side"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

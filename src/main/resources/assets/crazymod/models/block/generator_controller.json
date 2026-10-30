@@ -1,0 +1,8 @@
+{
+  "textures": {
+    "front": "minecraft:block/redstone_lamp",
+    "top": "minecraft:block/copper_block",
+    "side": "minecraft:block/copper_block"
+  },
+  "parent": "minecraft:block/orientable"
+}

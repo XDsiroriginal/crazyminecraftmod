@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "all":  "minecraft:block/anvil"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

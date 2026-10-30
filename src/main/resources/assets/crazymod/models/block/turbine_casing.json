@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "all":  "minecraft:block/smithing_table_bottom"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

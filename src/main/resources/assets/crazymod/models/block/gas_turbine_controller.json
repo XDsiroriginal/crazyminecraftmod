@@ -1,0 +1,8 @@
+﻿{
+    "textures":  {
+                     "front":  "minecraft:block/furnace_front",
+                     "top":  "minecraft:block/smithing_table_bottom",
+                     "side":  "minecraft:block/smithing_table_bottom"
+                 },
+    "parent":  "minecraft:block/orientable"
+}
