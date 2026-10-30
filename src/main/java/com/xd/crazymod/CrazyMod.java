@@ -1,5 +1,6 @@
 package com.xd.crazymod;
 
+import com.xd.crazymod.init.ModBlockEntities;
 import com.xd.crazymod.init.ModBlocks;
 import com.xd.crazymod.init.ModItemGroups;
 import com.xd.crazymod.init.ModItems;
@@ -17,6 +18,7 @@ public class CrazyMod implements ModInitializer {
 		LOGGER.info("Initializing Crazy Minecraft Mod - Realistic Thermal & Nuclear Power Plants");
 
 		ModBlocks.registerBlocks();
+		ModBlockEntities.registerBlockEntities();
 		ModItems.registerItems();
 		ModItemGroups.registerItemGroups();
 

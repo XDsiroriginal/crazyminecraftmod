@@ -47,7 +47,7 @@ public class ModBlocks {
 
 	// Multiblock Controllers
 	public static final Block COAL_BOILER_CONTROLLER = registerBlock("coal_boiler_controller",
-			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0f, 30.0f).sound(SoundType.METAL)));
+			new com.xd.crazymod.block.CoalBoilerControllerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0f, 30.0f).sound(SoundType.METAL)));
 
 	public static final Block OIL_BOILER_CONTROLLER = registerBlock("oil_boiler_controller",
 			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0f, 30.0f).sound(SoundType.METAL)));
@@ -62,10 +62,10 @@ public class ModBlocks {
 			new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).strength(15.0f, 1000.0f).sound(SoundType.METAL)));
 
 	public static final Block STEAM_TURBINE_CONTROLLER = registerBlock("steam_turbine_controller",
-			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(6.0f, 40.0f).sound(SoundType.METAL)));
+			new com.xd.crazymod.block.SteamTurbineControllerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(6.0f, 40.0f).sound(SoundType.METAL)));
 
 	public static final Block GENERATOR_CONTROLLER = registerBlock("generator_controller",
-			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(6.0f, 40.0f).sound(SoundType.COPPER)));
+			new com.xd.crazymod.block.GeneratorControllerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(6.0f, 40.0f).sound(SoundType.COPPER)));
 
 	public static final Block COOLING_TOWER_CONTROLLER = registerBlock("cooling_tower_controller",
 			new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(4.0f, 15.0f).sound(SoundType.STONE)));

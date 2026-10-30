@@ -42,5 +42,20 @@
   "item.crazymod.depleted_fuel_assembly": "Depleted Fuel Assembly (SNF)",
   "item.crazymod.control_rod": "Boron Carbide Control Rod",
   "item.crazymod.copper_coil": "Heavy Copper Coil",
-  "item.crazymod.turbine_rotor_blade": "High-Pressure Turbine Rotor Blade"
+  "item.crazymod.turbine_rotor_blade": "High-Pressure Turbine Rotor Blade",
+
+  "multiblock.crazymod.valid": "Multiblock structure is valid and formed!",
+  "multiblock.crazymod.error.interior_not_empty": "Interior block at %s must be empty/air!",
+  "multiblock.crazymod.error.invalid_block": "Invalid block at %s for boiler structure!",
+  "multiblock.crazymod.error.missing_fluid_ports": "Boiler requires at least 1 Fluid Input Port and 1 Fluid Output Port!",
+  "multiblock.crazymod.error.invalid_turbine_block": "Invalid block at %s for turbine structure!",
+  "multiblock.crazymod.error.invalid_generator_block": "Invalid block at %s for generator stator structure!",
+  "multiblock.crazymod.error.missing_energy_port": "Generator requires at least 1 High-Voltage Energy Output Port!",
+
+  "chat.crazymod.boiler.formed": "§aBoiler assembled!§r Temp: %d°C | Steam: %d mB | Water: %d mB",
+  "chat.crazymod.boiler.unformed": "§cBoiler assembly incomplete:§r %s",
+  "chat.crazymod.turbine.formed": "§aSteam Turbine assembled!§r Speed: %d RPM | Steam Flow: %d mB/t",
+  "chat.crazymod.turbine.unformed": "§cSteam Turbine assembly incomplete:§r %s",
+  "chat.crazymod.generator.formed": "§aTurbogenerator assembled!§r Output: %d E/t | Stored: %d FE/E",
+  "chat.crazymod.generator.unformed": "§cTurbogenerator assembly incomplete:§r %s"
 }

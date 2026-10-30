@@ -42,5 +42,20 @@
   "item.crazymod.depleted_fuel_assembly": "Отработавшая сборка (ОЯТ)",
   "item.crazymod.control_rod": "Регулирующий стержень СУЗ (карбид бора)",
   "item.crazymod.copper_coil": "Мощная медная катушка статора",
-  "item.crazymod.turbine_rotor_blade": "Турбинная рабочая лопатка"
+  "item.crazymod.turbine_rotor_blade": "Турбинная рабочая лопатка",
+
+  "multiblock.crazymod.valid": "Мультиблочная структура успешно собрана!",
+  "multiblock.crazymod.error.interior_not_empty": "Внутреннее пространство на %s должно быть пустым (воздух)!",
+  "multiblock.crazymod.error.invalid_block": "Недопустимый блок на позиции %s для конструкции котла!",
+  "multiblock.crazymod.error.missing_fluid_ports": "Для работы котла требуется минимум 1 входной и 1 выходной жидкостный порт!",
+  "multiblock.crazymod.error.invalid_turbine_block": "Недопустимый блок на позиции %s для корпуса турбины!",
+  "multiblock.crazymod.error.invalid_generator_block": "Недопустимый блок на позиции %s для корпуса генератора!",
+  "multiblock.crazymod.error.missing_energy_port": "Для генератора необходим минимум 1 высоковольтный энерговывод!",
+
+  "chat.crazymod.boiler.formed": "§aКотлоагрегат собран!§r Температура: %d°C | Пар: %d мБ | Вода: %d мБ",
+  "chat.crazymod.boiler.unformed": "§cКонструкция котла не завершена:§r %s",
+  "chat.crazymod.turbine.formed": "§aПаровая турбина собрана!§r Частота: %d об/мин | Расход пара: %d мБ/т",
+  "chat.crazymod.turbine.unformed": "§cКонструкция турбины не завершена:§r %s",
+  "chat.crazymod.generator.formed": "§aТурбогенератор собран!§r Выработка: %d E/т | Накоплено: %d FE/E",
+  "chat.crazymod.generator.unformed": "§cКонструкция генератора не завершена:§r %s"
 }
