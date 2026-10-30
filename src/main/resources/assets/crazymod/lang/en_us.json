@@ -57,5 +57,26 @@
   "chat.crazymod.turbine.formed": "§aSteam Turbine assembled!§r Speed: %d RPM | Steam Flow: %d mB/t",
   "chat.crazymod.turbine.unformed": "§cSteam Turbine assembly incomplete:§r %s",
   "chat.crazymod.generator.formed": "§aTurbogenerator assembled!§r Output: %d E/t | Stored: %d FE/E",
-  "chat.crazymod.generator.unformed": "§cTurbogenerator assembly incomplete:§r %s"
+  "chat.crazymod.generator.unformed": "§cTurbogenerator assembly incomplete:§r %s",
+  "multiblock.crazymod.error.invalid_tower_block": "Invalid block at %s for cooling tower structure!",
+  "multiblock.crazymod.error.missing_tower_fill": "Cooling tower requires cooling film fill at %s!",
+  "chat.crazymod.cooling_tower.formed": "§aCooling Tower assembled!§r Capacity: %d mB/t | Circulating Water: %d mB",
+  "chat.crazymod.cooling_tower.unformed": "§cCooling Tower assembly incomplete:§r %s",
+
+  "chat.crazymod.oil_boiler.formed": "§aHeavy Oil Boiler assembled!§r Temp: %d°C | Fuel: %d mB | Steam: %d mB",
+  "chat.crazymod.oil_boiler.unformed": "§cHeavy Oil Boiler assembly incomplete:§r %s",
+
+  "chat.crazymod.gas_turbine.formed": "§aGas Turbine assembled!§r Speed: %d RPM | Exhaust Temp: %d°C",
+  "chat.crazymod.gas_turbine.unformed": "§cGas Turbine assembly incomplete:§r %s",
+
+  "chat.crazymod.hrsg.formed": "§aHRSG Heat Recovery Generator assembled!§r Steam Flow: %d mB/t | Steam: %d mB",
+  "chat.crazymod.hrsg.unformed": "§cHRSG assembly incomplete:§r %s",
+  "multiblock.crazymod.error.invalid_hrsg_block": "Invalid block at %s for HRSG boiler structure!",
+
+  "chat.crazymod.vver.formed": "§aVVER Nuclear Reactor assembled!§r Power: %d MWth | Core Temp: %d°C | Steam: %d mB/t",
+  "chat.crazymod.vver.unformed": "§cVVER Reactor assembly incomplete:§r %s",
+  "chat.crazymod.vver.scram": "§eReactor Emergency Scram (АЗ-5): %s",
+  "multiblock.crazymod.error.missing_crdm": "VVER Reactor requires Control Rod Drive Mechanism (CRDM) at %s!",
+  "multiblock.crazymod.error.missing_crdm_head": "VVER Reactor missing Control Rod Drive Mechanisms on upper head!",
+  "multiblock.crazymod.error.invalid_vver_block": "Invalid block at %s for VVER reactor pressure vessel!"
 }

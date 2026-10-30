@@ -57,5 +57,26 @@
   "chat.crazymod.turbine.formed": "§aПаровая турбина собрана!§r Частота: %d об/мин | Расход пара: %d мБ/т",
   "chat.crazymod.turbine.unformed": "§cКонструкция турбины не завершена:§r %s",
   "chat.crazymod.generator.formed": "§aТурбогенератор собран!§r Выработка: %d E/т | Накоплено: %d FE/E",
-  "chat.crazymod.generator.unformed": "§cКонструкция генератора не завершена:§r %s"
+  "chat.crazymod.generator.unformed": "§cКонструкция генератора не завершена:§r %s",
+  "multiblock.crazymod.error.invalid_tower_block": "Недопустимый блок на позиции %s для конструкции градирни!",
+  "multiblock.crazymod.error.missing_tower_fill": "В градирне на позиции %s должен быть ороситель!",
+  "chat.crazymod.cooling_tower.formed": "§aГрадирня собрана!§r Мощность охлаждения: %d мБ/т | Вода: %d мБ",
+  "chat.crazymod.cooling_tower.unformed": "§cКонструкция градирни не завершена:§r %s",
+
+  "chat.crazymod.oil_boiler.formed": "§aМазутный котёл собран!§r Температура: %d°C | Мазут: %d мБ | Пар: %d мБ",
+  "chat.crazymod.oil_boiler.unformed": "§cКонструкция мазутного котла не завершена:§r %s",
+
+  "chat.crazymod.gas_turbine.formed": "§aГазовая турбина собрана!§r Обороты: %d об/мин | Температура выхлопа: %d°C",
+  "chat.crazymod.gas_turbine.unformed": "§cКонструкция газовой турбины не завершена:§r %s",
+
+  "chat.crazymod.hrsg.formed": "§aКотёл-утилизатор (ПГУ) собран!§r Расход пара: %d мБ/т | Пар: %d мБ",
+  "chat.crazymod.hrsg.unformed": "§cКонструкция котла-утилизатора не завершена:§r %s",
+  "multiblock.crazymod.error.invalid_hrsg_block": "Недопустимый блок на позиции %s для котла-утилизатора!",
+
+  "chat.crazymod.vver.formed": "§aРеактор ВВЭР собран!§r Тепловая мощность: %d МВт | Температура зоны: %d°C | Пар: %d мБ/т",
+  "chat.crazymod.vver.unformed": "§cКонструкция реактора ВВЭР не завершена:§r %s",
+  "chat.crazymod.vver.scram": "§eАварийная защита реактора (АЗ-5): %s",
+  "multiblock.crazymod.error.missing_crdm": "На верхней крышке реактора на %s требуется привод СУЗ!",
+  "multiblock.crazymod.error.missing_crdm_head": "В верхней части реактора отсутствуют блоки приводов СУЗ!",
+  "multiblock.crazymod.error.invalid_vver_block": "Недопустимый блок на позиции %s для корпуса ВВЭР!"
 }

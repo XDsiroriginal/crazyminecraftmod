@@ -50,16 +50,16 @@ public class ModBlocks {
 			new com.xd.crazymod.block.CoalBoilerControllerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0f, 30.0f).sound(SoundType.METAL)));
 
 	public static final Block OIL_BOILER_CONTROLLER = registerBlock("oil_boiler_controller",
-			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0f, 30.0f).sound(SoundType.METAL)));
+			new com.xd.crazymod.block.OilBoilerControllerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0f, 30.0f).sound(SoundType.METAL)));
 
 	public static final Block GAS_TURBINE_CONTROLLER = registerBlock("gas_turbine_controller",
-			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(6.0f, 40.0f).sound(SoundType.METAL)));
+			new com.xd.crazymod.block.GasTurbineControllerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(6.0f, 40.0f).sound(SoundType.METAL)));
 
 	public static final Block HRSG_CONTROLLER = registerBlock("hrsg_controller",
-			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0f, 30.0f).sound(SoundType.METAL)));
+			new com.xd.crazymod.block.HRSGControllerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0f, 30.0f).sound(SoundType.METAL)));
 
 	public static final Block VVER_REACTOR_CONTROLLER = registerBlock("vver_reactor_controller",
-			new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).strength(15.0f, 1000.0f).sound(SoundType.METAL)));
+			new com.xd.crazymod.block.VverReactorControllerBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).strength(15.0f, 1000.0f).sound(SoundType.METAL)));
 
 	public static final Block STEAM_TURBINE_CONTROLLER = registerBlock("steam_turbine_controller",
 			new com.xd.crazymod.block.SteamTurbineControllerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(6.0f, 40.0f).sound(SoundType.METAL)));
@@ -68,7 +68,7 @@ public class ModBlocks {
 			new com.xd.crazymod.block.GeneratorControllerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(6.0f, 40.0f).sound(SoundType.COPPER)));
 
 	public static final Block COOLING_TOWER_CONTROLLER = registerBlock("cooling_tower_controller",
-			new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(4.0f, 15.0f).sound(SoundType.STONE)));
+			new com.xd.crazymod.block.CoolingTowerControllerBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(4.0f, 15.0f).sound(SoundType.STONE)));
 
 	// Multiblock Input/Output Ports
 	public static final Block FLUID_INPUT_PORT = registerBlock("fluid_input_port",
