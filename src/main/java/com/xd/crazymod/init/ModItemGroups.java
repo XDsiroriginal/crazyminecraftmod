@@ -49,6 +49,11 @@ public class ModItemGroups {
 							output.accept(ModBlocks.ITEM_OUTPUT_PORT);
 							output.accept(ModBlocks.ENERGY_OUTPUT_PORT);
 
+							// Piping & Cables
+							output.accept(ModBlocks.STEAM_PIPE);
+							output.accept(ModBlocks.WATER_PIPE);
+							output.accept(ModBlocks.ENERGY_CABLE);
+
 							// Items & Materials
 							output.accept(ModItems.COAL_DUST);
 							output.accept(ModItems.BOILER_SLAG);

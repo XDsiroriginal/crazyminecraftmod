@@ -28,6 +28,10 @@
   "block.crazymod.item_output_port": "Выходной порт выгрузки шлака/отходов",
   "block.crazymod.energy_output_port": "Высоковольтный энерговывод",
 
+  "block.crazymod.steam_pipe": "Паропровод высокого давления",
+  "block.crazymod.water_pipe": "Изолированный водопровод",
+  "block.crazymod.energy_cable": "Высоковольтный энергокабель",
+
   "item.crazymod.coal_dust": "Угольная пыль",
   "item.crazymod.boiler_slag": "Топочный котельный шлак",
   "item.crazymod.fly_ash": "Летучая зола",
@@ -76,6 +80,13 @@
   "chat.crazymod.vver.formed": "§aРеактор ВВЭР собран!§r Тепловая мощность: %d МВт | Температура зоны: %d°C | Пар: %d мБ/т",
   "chat.crazymod.vver.unformed": "§cКонструкция реактора ВВЭР не завершена:§r %s",
   "chat.crazymod.vver.scram": "§eАварийная защита реактора (АЗ-5): %s",
+  "chat.crazymod.port.unconnected": "§cПорт не соединен с действующим мультиблоком!§r",
+  "chat.crazymod.port.water_added": "§aЗалито 1000 мБ воды в мультиблок!§r",
+  "chat.crazymod.port.coal_loaded": "§aУголь загружен в топку котла!§r",
+  "chat.crazymod.port.fuel_assembly_loaded": "§aТепловыделяющая сборка ТВС загружена в активную зону!§r",
+  "chat.crazymod.port.energy_status": "§aВывод энергии:§r %d E/т | Накоплено в сети: %d FE/E",
+  "chat.crazymod.port.status_ready": "§eЖидкостный порт готов. Кликните ведром с водой для заливки.§r",
+  "chat.crazymod.port.item_ready": "§eПорт материалов готов. Кликните углем или ТВС для загрузки.§r",
   "multiblock.crazymod.error.missing_crdm": "На верхней крышке реактора на %s требуется привод СУЗ!",
   "multiblock.crazymod.error.missing_crdm_head": "В верхней части реактора отсутствуют блоки приводов СУЗ!",
   "multiblock.crazymod.error.invalid_vver_block": "Недопустимый блок на позиции %s для корпуса ВВЭР!"

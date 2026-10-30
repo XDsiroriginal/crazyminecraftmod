@@ -28,6 +28,10 @@
   "block.crazymod.item_output_port": "Multiblock Item Output Port",
   "block.crazymod.energy_output_port": "High-Voltage Energy Output Port",
 
+  "block.crazymod.steam_pipe": "High-Pressure Steam Pipe",
+  "block.crazymod.water_pipe": "Insulated Water Pipe",
+  "block.crazymod.energy_cable": "High-Voltage Energy Cable",
+
   "item.crazymod.coal_dust": "Pulverized Coal Dust",
   "item.crazymod.boiler_slag": "Furnace Slag",
   "item.crazymod.fly_ash": "Fly Ash",
@@ -76,6 +80,13 @@
   "chat.crazymod.vver.formed": "§aVVER Nuclear Reactor assembled!§r Power: %d MWth | Core Temp: %d°C | Steam: %d mB/t",
   "chat.crazymod.vver.unformed": "§cVVER Reactor assembly incomplete:§r %s",
   "chat.crazymod.vver.scram": "§eReactor Emergency Scram (АЗ-5): %s",
+  "chat.crazymod.port.unconnected": "§cPort is not connected to any active multiblock!§r",
+  "chat.crazymod.port.water_added": "§aAdded 1000 mB of water into multiblock!§r",
+  "chat.crazymod.port.coal_loaded": "§aLoaded coal into combustion chamber!§r",
+  "chat.crazymod.port.fuel_assembly_loaded": "§aLoaded VVER nuclear fuel assembly into reactor!§r",
+  "chat.crazymod.port.energy_status": "§aEnergy Port Output:§r %d E/t | Grid Stored: %d FE/E",
+  "chat.crazymod.port.status_ready": "§eFluid Port is ready. Right click with water bucket to insert.§r",
+  "chat.crazymod.port.item_ready": "§eItem Port is ready. Right click with coal or fuel assembly to insert.§r",
   "multiblock.crazymod.error.missing_crdm": "VVER Reactor requires Control Rod Drive Mechanism (CRDM) at %s!",
   "multiblock.crazymod.error.missing_crdm_head": "VVER Reactor missing Control Rod Drive Mechanisms on upper head!",
   "multiblock.crazymod.error.invalid_vver_block": "Invalid block at %s for VVER reactor pressure vessel!"

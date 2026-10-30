@@ -72,19 +72,29 @@ public class ModBlocks {
 
 	// Multiblock Input/Output Ports
 	public static final Block FLUID_INPUT_PORT = registerBlock("fluid_input_port",
-			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(4.0f, 20.0f).sound(SoundType.METAL)));
+			new com.xd.crazymod.block.port.FluidInputPortBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(4.0f, 20.0f).sound(SoundType.METAL)));
 
 	public static final Block FLUID_OUTPUT_PORT = registerBlock("fluid_output_port",
 			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(4.0f, 20.0f).sound(SoundType.METAL)));
 
 	public static final Block ITEM_INPUT_PORT = registerBlock("item_input_port",
-			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(4.0f, 20.0f).sound(SoundType.METAL)));
+			new com.xd.crazymod.block.port.ItemInputPortBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(4.0f, 20.0f).sound(SoundType.METAL)));
 
 	public static final Block ITEM_OUTPUT_PORT = registerBlock("item_output_port",
 			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(4.0f, 20.0f).sound(SoundType.METAL)));
 
 	public static final Block ENERGY_OUTPUT_PORT = registerBlock("energy_output_port",
-			new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).strength(5.0f, 30.0f).sound(SoundType.COPPER)));
+			new com.xd.crazymod.block.port.EnergyOutputPortBlock(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).strength(5.0f, 30.0f).sound(SoundType.COPPER)));
+
+	// Pipes & Cables
+	public static final Block STEAM_PIPE = registerBlock("steam_pipe",
+			new com.xd.crazymod.block.pipe.SteamPipeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(3.0f, 15.0f).sound(SoundType.METAL).noOcclusion()));
+
+	public static final Block WATER_PIPE = registerBlock("water_pipe",
+			new com.xd.crazymod.block.pipe.WaterPipeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(3.0f, 15.0f).sound(SoundType.METAL).noOcclusion()));
+
+	public static final Block ENERGY_CABLE = registerBlock("energy_cable",
+			new com.xd.crazymod.block.pipe.EnergyCableBlock(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).strength(2.0f, 10.0f).sound(SoundType.COPPER).noOcclusion()));
 
 	private static Block registerBlock(String name, Block block) {
 		Registry.register(BuiltInRegistries.BLOCK, CrazyMod.id(name), block);
