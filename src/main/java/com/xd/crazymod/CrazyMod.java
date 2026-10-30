@@ -1,5 +1,8 @@
 package com.xd.crazymod;
 
+import com.xd.crazymod.init.ModBlocks;
+import com.xd.crazymod.init.ModItemGroups;
+import com.xd.crazymod.init.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
@@ -11,7 +14,13 @@ public class CrazyMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Crazy Minecraft Mod initialized!");
+		LOGGER.info("Initializing Crazy Minecraft Mod - Realistic Thermal & Nuclear Power Plants");
+
+		ModBlocks.registerBlocks();
+		ModItems.registerItems();
+		ModItemGroups.registerItemGroups();
+
+		LOGGER.info("Crazy Minecraft Mod initialized successfully!");
 	}
 
 	public static ResourceLocation id(String path) {
